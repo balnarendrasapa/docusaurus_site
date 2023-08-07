@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - 'docs/**'
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        working-directory: ./docs
+
+      - name: Build website
+        run: yarn build
+        working-directory: ./docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/build
+          user_name: "Bal Narendra Sapa"
+          user_email: bnsapa2000@gmail.com
