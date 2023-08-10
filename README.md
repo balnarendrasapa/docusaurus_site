@@ -4,7 +4,7 @@ This repository is an example of deploying a Docusaurus website to GitHub Pages 
 
 ## Configuring the GitHub repository
 
-It uses the _new_ GitHub Pages experience with GitHub Actions to deploy the website.
+It uses the _new_ GitHub Pages experience with GitHub Actions to deploy the website
 
 Enable this experience in _GitHub.com -> Repository -> Settings -> Pages -> Build and deployment -> Source_ by selecting _GitHub Actions_ instead of the legacy _Deploy from a branch_ option.
 
