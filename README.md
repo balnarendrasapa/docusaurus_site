@@ -8,3 +8,4 @@
 - You can create sub-directories to group markdown or notebook files this will add a dropdown list in the site.
 - I have made use of these repos. 1. [docusaurus](https://docusaurus.io/)
                                   2. [nbdocs](https://github.com/outerbounds/nbdoc)
+- The generated site would look like this. follow this [link](https://balnarendrasapa.github.io/docusaurus_site/)
