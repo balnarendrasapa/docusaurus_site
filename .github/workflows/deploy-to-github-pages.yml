@@ -53,7 +53,7 @@ jobs:
         run: pip install nbdoc==0.0.54
 
       - name: nbdev
-        run: pip uninstall nbdev
+        run: pip uninstall -y nbdev
 
       - name: nbdev install
         run: pip install nbdev
