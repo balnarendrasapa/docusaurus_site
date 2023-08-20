@@ -67,7 +67,7 @@ jobs:
 
       - name: Run nbdoc
         run: nbdoc_build
-        working-directory: ./docs/docs_skeleton
+        working-directory: ./docs/docs_skeleton/docs
 
       - name: Build
         run: yarn build
