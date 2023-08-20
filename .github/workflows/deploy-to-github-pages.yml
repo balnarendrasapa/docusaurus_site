@@ -56,6 +56,9 @@ jobs:
         run: yarn install --frozen-lockfile --non-interactive
         working-directory: ./docs/docs_skeleton
 
+      - name: Create a docs folder
+        run: mkdir -p ./docs/docs_skeleton/docs
+
       - name: Copy files from markdown to docs_skeleton
         run: cp -r ./docs/markdown/* ./docs/docs_skeleton/docs/
 
