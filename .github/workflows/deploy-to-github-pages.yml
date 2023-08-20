@@ -50,7 +50,7 @@ jobs:
           architecture: "x64"
 
       - name: Install dependencies pip
-        run: pip install nbdoc==0.0.54
+        run: pip install nbdoc==0.0.54 nbdev
         
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive
@@ -67,7 +67,7 @@ jobs:
 
       - name: Run nbdoc
         run: nbdoc_build
-        working-directory: ./docs/docs_skeleton/docs
+        working-directory: ./docs/docs_skeleton
 
       - name: Build
         run: yarn build
