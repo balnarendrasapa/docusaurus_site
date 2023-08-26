@@ -1,4 +1,4 @@
-# docusaurus_site
+# Docusaurus Template Site
 
 - Use this repo template to generate documentation site for your python or any other project that involves jupyter notebooks.
 - Make necessary changes like names in settings.ini and docusaurus.config.js files in docs_skeleton directory.
