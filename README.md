@@ -27,10 +27,8 @@ Generate a documentation site for your Python or any other project involving Jup
     - The workflow will be triggered automatically, and your GitHub site will be built and deployed.
 
 5. **Add Content:**
-
-    - Place your Markdown files in the `markdown` directory.
     
-    - Put Jupyter notebook files in the `files` directory within the `docs` directory.
+    - Place your markdown and Jupyter notebook files in the `files` directory within the `docs` directory.
     
     - You can create sub-directories to group Markdown or notebook files, which will add a dropdown list on the site.
 
@@ -52,7 +50,3 @@ For detailed instructions and customization options, refer to the official Docus
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README according to your project's specific details. Happy documenting! 📝✨
