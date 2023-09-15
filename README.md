@@ -43,7 +43,7 @@ This project makes use of the following repositories:
 
 ## 🌐 Example Site
 
-Check out the generated site: [Demo Site](https://balnarendrasapa.github.io/docusaurus_site/)
+Check out the generated site: [Demo Site](https://balnarendrasapa.github.io/docusaurus_site/docs/intro)
 
 ## 📖 Documentation
 
