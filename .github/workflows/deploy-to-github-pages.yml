@@ -60,7 +60,7 @@ jobs:
         run: mkdir -p ./docs/docs_skeleton/docs
 
       - name: Copy markdown and notebook files to docs_skeleton
-        run: cp -r ./docs/files/* ./docs/docs_skeleton/docs/
+        run: cp -r ./docs/files/** ./docs/docs_skeleton/docs/
 
       - name: Run nbdoc
         run: nbdoc_build
